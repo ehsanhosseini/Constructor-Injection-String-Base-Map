@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<bean id="q" class="StringMap.Question">
+<constructor-arg value="100"></constructor-arg>
+<constructor-arg value="What is Java"></constructor-arg>
+<constructor-arg>
+<map>
+<entry key="Java is programming language" value="By Ehsan"></entry>
+<entry key="Java is a city name" value="By Majed"></entry>
+<entry key="Java is bank name" value="By Jamshid"></entry>
+</map>
+</constructor-arg>
+</bean>
+
+</beans>
